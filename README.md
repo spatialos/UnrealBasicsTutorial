@@ -4,9 +4,9 @@
 
 *****
 
-Copyright Improbable 2017
+Copyright Improbable 2018
 
-* Link to docs: [Unreal Basics Tutorial](https://spatialos.improbable.io/docs/reference/latest/unrealsdk/tutorials/unreal-basics-tutorial/overview)
+* Link to docs: [Unreal Basics Tutorial](https://github.com/spatialos/UnrealSDK/blob/master/docs/get-started/unreal-basics-tutorial/lesson1.md)
 
 *****
 
