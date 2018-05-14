@@ -23,12 +23,12 @@
 	{
 		"Win64": [
 			"cd /D \"$(ProjectDir)\"",
-			"spatial invoke unreal package --engineDir=\"$(EngineDir)\" --project=\"$(ProjectFile)\" --platform=\"$(TargetPlatform)\" --target=\"$(TargetType)\" --configuration=\"$(TargetConfiguration)\" -- -allmaps",
+			"Binaries\\ThirdParty\\Improbable\\Programs\\unreal_packager package --engineDir=\"$(EngineDir)\" --project=\"$(ProjectFile)\" --platform=\"$(TargetPlatform)\" --target=\"$(TargetType)\" --configuration=\"$(TargetConfiguration)\" -- -allmaps",
 			"exit /B %ERRORLEVEL%"
 		],
 		"Linux": [
 			"cd \"$(ProjectDir)\"",
-			"spatial invoke unreal package --engineDir=\"$(EngineDir)\" --project=\"$(ProjectFile)\" --platform=\"$(TargetPlatform)\" --target=\"$(TargetType)\" --configuration=\"$(TargetConfiguration)\" -- -allmaps",
+			"Binaries\\ThirdParty\\Improbable\\Programs\\unreal_packager package --engineDir=\"$(EngineDir)\" --project=\"$(ProjectFile)\" --platform=\"$(TargetPlatform)\" --target=\"$(TargetType)\" --configuration=\"$(TargetConfiguration)\" -- -allmaps",
 			"exit /B %ERRORLEVEL%"
 		]
 	}

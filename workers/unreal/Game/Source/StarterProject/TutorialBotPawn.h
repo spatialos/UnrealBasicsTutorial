@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "SpatialOS/Generated/Uclasses/PositionComponent.h"
+#include "SpatialOS/Generated/UClasses/PositionComponent.h"
 #include "TutorialBotPawn.generated.h"
 
 UCLASS()
