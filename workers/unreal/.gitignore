@@ -4,6 +4,7 @@
 Engine
 
 Game/Binaries/*
+Game/Plugins/**/Binaries/
 Game/Build/
 Game/Intermediate/
 
